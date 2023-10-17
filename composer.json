@@ -2,7 +2,7 @@
     "name": "yuriy-martini/laravel-nova-fields",
     "require": {
         "php": "^8.0",
-        "laravel/nova": "~4.0"
+        "laravel/nova": "^4"
     },
     "require-dev": {
         "orchestra/testbench": ">=6.0",
