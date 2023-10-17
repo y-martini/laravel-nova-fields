@@ -1,8 +1,8 @@
 <?php
 
-namespace YuriyMartini\NovaPackageName\Tests\Feature;
+namespace YuriyMartini\Laravel\Nova\Fields\Tests\Feature;
 
-use YuriyMartini\NovaPackageName\Tests\TestCase;
+use YuriyMartini\Laravel\Nova\Fields\Tests\TestCase;
 
 class ExampleTest extends TestCase
 {

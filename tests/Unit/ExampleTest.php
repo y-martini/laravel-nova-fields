@@ -1,6 +1,6 @@
 <?php
 
-namespace YuriyMartini\NovaPackageName\Tests\Unit;
+namespace YuriyMartini\Laravel\Nova\Fields\Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
 

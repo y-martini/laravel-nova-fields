@@ -1,6 +1,6 @@
 <?php
 
-namespace YuriyMartini\NovaPackageName;
+namespace YuriyMartini\Laravel\Nova\Fields;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {

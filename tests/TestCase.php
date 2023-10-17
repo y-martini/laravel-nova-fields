@@ -1,9 +1,9 @@
 <?php
 
-namespace YuriyMartini\NovaPackageName\Tests;
+namespace YuriyMartini\Laravel\Nova\Fields\Tests;
 
 use Orchestra\Testbench\TestCase as BaseTestCase;
-use YuriyMartini\NovaPackageName\ServiceProvider;
+use YuriyMartini\Laravel\Nova\Fields\ServiceProvider;
 
 abstract class TestCase extends BaseTestCase
 {

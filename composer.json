@@ -1,5 +1,5 @@
 {
-    "name": "yuriy-martini/nova-package-name",
+    "name": "yuriy-martini/laravel-nova-fields",
     "require": {
         "php": "^8.0",
         "laravel/nova": "~4.0"
@@ -17,12 +17,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "YuriyMartini\\NovaPackageName\\": "src"
+            "YuriyMartini\\Laravel\\Nova\\Fields\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "YuriyMartini\\NovaPackageName\\Tests\\": "tests"
+            "YuriyMartini\\Laravel\\Nova\\Fields\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -31,7 +31,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "YuriyMartini\\NovaPackageName\\ServiceProvider"
+                "YuriyMartini\\Laravel\\Nova\\Fields\\ServiceProvider"
             ]
         }
     },
