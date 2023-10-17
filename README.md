@@ -11,8 +11,35 @@ composer require yuriy-martini/laravel-nova-fields
 
 ## Usage
 
+`app/Nova/Fields/Text.php`:
+
 ```php
-// example usage
+<?php
+
+namespace App\Nova\Fields;
+
+class Text extends \Laravel\Nova\Fields\Text
+{
+    use \YuriyMartini\Laravel\Nova\Fields\Concerns\IsRequired;
+}
+```
+
+`app/Nova/User.php`:
+
+```php
+<?php
+
+namespace App\Nova;
+
+class User extends Resource
+{
+    public function fields(NovaRequest $request): array
+    {
+        return [
+            \App\Nova\Fields\Text::make('Name'),
+        ];
+    }
+}
 ```
 
 ## Changelog
